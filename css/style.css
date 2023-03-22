@@ -1,3 +1,5 @@
+@import 'fonts.css';
+
 * {
     box-sizing: border-box;
 }
@@ -10,4 +12,48 @@ body {
 
 img {
     max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.literata-variable {
+    font-family: "literata-variable", sans-serif;
+    font-variation-settings:
+        "opsz" 15,
+        "wght" 600;
+}
+
+.handjet {
+    margin: 0;
+    font-size: 100px;
+    font-family: 'handjet';
+    font-variation-settings:
+        "EGRD" 1,
+        "ESHP" 13,
+        "wght" 250;
+    font-feature-settings: 'dlig';
+}
+
+.battle-boats {
+    font-family: 'battle-boat';
+    font-size: 100px;
+}
+
+.face {
+    font-family: 'face';
+    font-size: 120px;
+    font-variation-settings: "fmsk" 16.93, "hdrs" 37.45, "hscl" 24.18;
+}
+
+.anicons {
+    font-family: 'anicons';
+    font-variation-settings: 'TIME' 1;
+    transition: .5s;
+}
+
+.anicons:hover {
+    font-variation-settings: 'TIME' 100;
 }
